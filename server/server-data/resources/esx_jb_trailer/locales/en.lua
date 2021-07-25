@@ -1,0 +1,20 @@
+Locales['en'] = {
+    ["open_tow_menu"]             = "Pressiona ~INPUT_LOOK_BEHIND~ para abrir o menu de rebocagem",
+    ["attach_vehicle"]            = "Pressiona ~INPUT_LOOK_BEHIND~ para atracar o veiculo",
+    ["detach_vehicle"]            = "Pressiona ~INPUT_LOOK_BEHIND~ para desatracar o veiculo",
+	["front_car_pjtrailer"]       = "Rebocar veiculo frente",
+	["middle_car_pjtrailer"]      = "Rebocar veiculo meio",
+	["back_car_pjtrailer"]        = "Rebocar veiculo trás",
+	["open_rampe_pjtrailer"]      = "abrir rampa",
+	["close_rampe_pjtrailer"]     = "fechar rampa",
+	["open_rampe"]                = "Abrir rampa de baixo",
+	["close_rampe"]               = "Fechar rampa de baixo",
+	["close_plateau"]             = 'Fechar rampa de cima',
+    ["open_plateau"]              = 'Abrir rampa de cima',
+    ["up_front_car"]              = 'Rebocar veiculo baixo frente',
+    ["up_middle_car"]             = 'Rebocar veiculo baixo meio',
+    ["up_back_car"]               = 'Rebocar veiculo baixo trás',
+    ["down_front_car"]            = 'Rebocar veiculo cima frente',
+    ["down_middle_car"]           = 'Rebocar veiculo cima meio',
+    ["down_back_car"]             = 'Rebocar veiculo cima trás'
+}

@@ -1,0 +1,21 @@
+Locales["nl"] = {
+	["cash"] = "Dinheiro",
+	["black_money"] = "Dinheiro Sujo",
+	["player_nearby"] = "Esse jogador não está mais por perto!",
+	["players_nearby"] = "Não há jogadores por perto!",
+	["openinv_help"] = "Abrir inventário de outro jogador",
+	["openinv_id"] = "ID do jogador",
+	["no_permissions"] = "Você não tem permissão para fazer isso!",
+	["no_player"] = "Não foi possível encontrar o jogador!",
+	["player_inventory"] = "O teu inventário",
+	["nacho_veh"] = "Este veículo não é seu",
+	["player_inv_no_space"] = "Não tens espaço no inventário",
+	["insufficient_space"] = "Não tens espaço no inventário",
+	["invalid_quantity"] = "Quantia Inválida",
+	["item_added"] = "Adicionado:",
+	["item_removed"] = "Excluído:",
+	["money_added"] = "Adicionado:",
+	["money_removed"] = "Excluído:",
+	["weapon_added"] = "Adicionado:",
+	["weapon_removed"] = "Excluído:"
+}

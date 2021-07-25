@@ -1,0 +1,25 @@
+Locales['en'] = {
+    ['you_paid'] = 'Pagaste ~g~$%s~s~',
+    ['garage'] = 'Garagem',
+    ['notif_car_impounded'] = 'Garagem: <br /> O teu veículo está no ferro-velho!',
+    ['status_in_garage'] = '%s: <font color="green">Na garagem</font>',
+    ['status_impounded'] = '%s: <font color="red">No Ferro-Velho</font>',
+    ['list_vehicles'] = 'Lista de Veículos',
+    ['stock_vehicle'] = 'Guardar Veículo',
+    ['return_vehicle'] = 'Tirar veículo do ferro-velho ($%s)',
+    ['reparation'] = 'O teu veículo está daníficado!',
+    ['reparation_yes'] = 'Reparar agora ($%s)',
+    ['reparation_no'] = 'Não, obrigado!',
+    ['reparation_no_notif'] = 'Para guardar o veículo, tem que estar em perfeita condição',
+    ['ranger'] = 'Garagem: <br /> O teu veículo foi arrumado com sucesso!',
+    ['stockv_not_owned'] = 'Garagem: <br /> Este veículo não é teu!',
+    ['stockv_not_in_veh'] = 'Garagem: <br /> Precisas de estar dentro de um veículo!',
+    ['spawn'] = 'Pressiona ~INPUT_PICKUP~ para tirar o veículo',
+    ['delete'] = 'Pressiona  ~INPUT_PICKUP~ para guardar o veículo',
+    ['pound_action_menu'] = 'Pressiona ~INPUT_PICKUP~ para aceder ao ferro-velho',
+    ['not_enough_money'] = 'Não tens dinheiro suficiente!',
+    ['impound_list'] = '%s: Devolver',
+    ['impound_yard'] = 'Ferro-velho',
+    ['impound_not_enough_money'] = 'Garagem: <br /> Não tens dinheiro suficiente!'
+
+}

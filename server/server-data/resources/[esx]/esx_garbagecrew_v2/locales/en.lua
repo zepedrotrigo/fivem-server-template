@@ -1,0 +1,18 @@
+Locales['en'] = {
+  ['cloakroom']	= 'Escritório',
+  ['job_wear'] = 'clock-In',
+  ['citizen_wear'] = 'clock-Out',
+  ['vehiclespawner'] = 'Escolher camião', 
+  ['already_have_truck'] = 'Já providenciámos um camião de recolha!', 
+  ['collection'] = '~INPUT_PICKUP~ para apanhar.',
+  ['return_depot'] = 'voltar à estação.',
+  ['blip_job'] = 'Lixeiro', --'Garbage company',
+  ['blip_delivery'] = 'Lixeiro : Ponto de recolha', --'Garbage company : Delivery',
+  ['blip_goal'] = 'Lixeiro : Ponto de entrega', --'Garbage company : Delivery point',
+  ['cancel_mission'] = '~INPUT_PICKUP~ para terminar esta missão',
+  ['collect_bags'] = '~INPUT_PICKUP~ para apanhar lixo (%s left)',
+  ['not_near_truck'] = 'Nenhum camião do lixo nas proximidades.',
+  ['need_work_truck'] = 'Tens que estar no camião da empresa para começar a recolha.',
+  ['toss_bag'] = '~INPUT_PICKUP~ para colocar lixo no camião.',
+  ['drive_to_collection'] = 'conduz até ao local da recolha.',
+}
