@@ -44,3 +44,5 @@ and add: Include /etc/phpmyadmin/apache.conf
 (https://serverfault.com/questions/236994/phpmyadmin-not-found-issue)
 ```
 
+# Connect to phpMyAdmin with PuTTy Tunnel
+https://www.youtube.com/watch?v=9VdcQLDmYII
