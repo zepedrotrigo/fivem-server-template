@@ -7,7 +7,15 @@ cd server/server-data && ./start.sh
 
 # Apache2 e php5.6
 ```
-https://medium.com/@lazycoding/installing-apache-2-php-5-6-mysql-on-ubuntu-14-04-eb3887ceeee1
+add-apt-repository ppa:ondrej/apache2
+apt-get update
+apt-get upgrade
+add-apt-repository ppa:ondrej/php
+apt-get update
+apt-get install -y php5.6 php5.6-mcrypt php5.6-mbstring php5.6-curl php5.6-cli php5.6-mysql php5.6-gd php5.6-intl php5.6-xsl php5.6-zip libapache2-mod-php5.6
+sudo a2dismod php5
+sudo a2enmod php5.6
+sudo service apache2 restart
 ```
 
 # MariaDB and phpMyAdmin
