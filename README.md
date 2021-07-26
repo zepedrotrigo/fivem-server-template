@@ -3,27 +3,18 @@
 cd server/server-data && ./start.sh
 ```
 
-# Pre requisites
-
-# Apache2 e php5.6
+# Install LAMP server
+https://www.tecmint.com/install-lamp-with-phpmyadmin-in-ubuntu-20-04/
 ```
-add-apt-repository ppa:ondrej/apache2
-apt-get update
-apt-get upgrade
-add-apt-repository ppa:ondrej/php
-apt-get update
-apt-get install -y php5.6 php5.6-mcrypt php5.6-mbstring php5.6-curl php5.6-cli php5.6-mysql php5.6-gd php5.6-intl php5.6-xsl php5.6-zip libapache2-mod-php5.6
-sudo a2dismod php5
-sudo a2enmod php5.6
-sudo service apache2 restart
-```
-
-# MariaDB and phpMyAdmin
-```
-apt update
-apt install php5.6-mysql php5.6-mcrypt libapache2-mod-php5.6
-apt install mariadb-server mariadb-client phpmyadmin
-mysql_secure_installation
+sudo apt install apache2
+sudo apt install mariadb-server mariadb-client
+sudo mysql_secure_installation
+sudo apt install php libapache2-mod-php php-mysql
+sudo systemctl restart apache2
+sudo apt install phpmyadmin
+sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
+sudo a2enconf phpmyadmin.conf
+sudo systemctl reload apache2.service
 ```
 
 # Enable root login on phpMyAdmin
@@ -37,7 +28,7 @@ Restart mysql:
 ```
 /etc/init.d/mysql restart
 ```
-phpmyadmin not found issue:
+# phpmyadmin not found issue:
 ```
 go to: /etc/apache2/apache2.conf
 and add: Include /etc/phpmyadmin/apache.conf 
